@@ -1,4 +1,5 @@
 apply plugin: "com.android.application"
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 
 import com.android.build.OutputFile
 import org.apache.tools.ant.taskdefs.condition.Os
@@ -17,7 +18,7 @@ import org.apache.tools.ant.taskdefs.condition.Os
  *   bundleAssetName: "index.android.bundle",
  *
  *   // the entry file for bundle generation. If none specified and
- *   // "index.android.js" exists, it will be used. Otherwise "index.js" is
+ *   // "index.android.js" exists, it will be used. Otherwise "index.jsx" is
  *   // default. Can be overridden with ENTRY_FILE environment variable.
  *   entryFile: "index.android.js",
  *
